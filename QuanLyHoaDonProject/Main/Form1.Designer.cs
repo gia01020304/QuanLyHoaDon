@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace Main
 {
     partial class Form1
     {
