@@ -14,15 +14,14 @@ namespace Main.DTO
         [StringLengthAttribute(100)]
         public string Name { get; set; }
         [StringLengthAttribute(50)]
-
         public string DVT { get; set; }
         public int SoLuong { get; set; }
         public double DonGiaNhap { get; set; }
         public double DonGiaBan { get; set; }
         [StringLengthAttribute(250)]
-
         public string GhiChu { get; set; }
         public int IDDonViBanHang { get; set; }
+		public bool DaXoa{get;set;}
        
 
         public virtual DonViBanHang DonViBanHang { get; set; }
