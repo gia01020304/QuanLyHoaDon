@@ -23,7 +23,7 @@ namespace Main.DTO
 
         public string GhiChu { get; set; }
         public int IDDonViBanHang { get; set; }
-        public bool DaXoa { get; set; }
+       
 
         public virtual DonViBanHang DonViBanHang { get; set; }
 
